@@ -1,0 +1,19 @@
+<!Doctype html>
+<html>
+<meta chrset="utf-8">
+<title>my css experiment</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+,h1>Hello World!</h1>
+<p>This is my first css example</p>
+</body>
+</html>
+h1 { color: blue; background-color: yellow; border: 1px solid black,}
+p { color: red; }
+p {color:red;text-align:center; }
+h1{text-align:center;color:red;}
+h2{text-align:center;color:red;}
+p {text-align:center;color:red; }
+h1,h2,p {text-align:center;color:red }
+
