@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+.menu-container {
+    color: #fff;
+    background-color: #5995DA;  /* Blue */
+    padding: 20px 0;
+    }
+
+.menu {
+    border: 1px solid #fff;  /* For debugging */
+    width: 900px;
+    }
+
+.menu-container {
+    /*...*/
+    display:flex;
+}
+.menu {
+    border: 1px solid #fff;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    }
+
+    <div class='menu'>
+     <div class='date'>Aug 14, 2016</div>
+          <div class='links'>
+          <div class='signup'>Sign Up</div>      <!-- This is nested now -->
+          <div class='login'>Login</div>         <!-- This one too! -->
+     </div>
+</div>
+
+.links {
+    border: 1px solid #fff;  /* For debugging */
+    display: flex;
+    justify-content: flex-end;
+    }
+
+.login {
+    margin-left: 20px;
+    }
+
+    .header-container {
+        color: #5995DA;
+        background-color: #D6E9FE;
+        display: flex;
+        justify-content: center;
+        }
+   
+   .header {
+        width: 900px;
+        height: 300px;
+        display: flex;
+        justify-content: space-between;
+        }
+   
+   .header {
+        /* ... */
+        align-items: center;  /* Add this */
+        }
+
