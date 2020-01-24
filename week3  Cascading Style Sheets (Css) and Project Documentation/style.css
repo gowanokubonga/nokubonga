@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(20, 57, 100);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0 0 20px;
+}
+.link a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px 10px;
+    margin-right: 30px;;
+}
+
+.link a:hover{
+    color: rgb(20, 57, 100);
+    background-color: white;
+}
+
+.logo{
+    display: flex;
+    justify-content: center ;
+}
+
+.school-title h1{
+    font-size: 60px;
+    color: white;
+    font-style: inherit;
+    font-display: center;
+    font-family: cursive;
+    text-align: center;
+}
+
+.Contact{
+    text-align: center;
+}
+
+.Contact h3{
+    color: lawngreen;
+}
+
+.Contact p{
+    color: white;
+}
+.icons img{
+    width: 40px;
+}

@@ -1,0 +1,14 @@
+body{
+    background-image: url(./mzt.png);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+}
+
+h3{
+    color: black;
+    font-size: 40px;
+    font-style: inherit;
+    font-family: fantasy;
+}

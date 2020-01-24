@@ -1,0 +1,13 @@
+body{
+    background-image: url("./mzat.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px 0px 20px;
+}
