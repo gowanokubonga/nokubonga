@@ -1,0 +1,29 @@
+html ,body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline
+}
+.main nav {
+    text-align: center ;
+    font-size: 1.1em ;
+    font-weight: lighter;
+    border-bottom: 1 px solid  blue) ;
+
+}
+
+.main-nav li {
+    padding: 05%;
+} 
+
+.main-header {
+    background-image: url("creek-21749_960_720.jpg");
+    background-size: cover;
+}
