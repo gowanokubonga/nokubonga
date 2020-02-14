@@ -1,8 +1,19 @@
-html ,body {
-    margin: 0;
-    padding: 0;
-    
+
+html, body {
+    margin-left: 0;
+    padding-left: 0;
 }
+
+
+body {
+    text-align: center;
+    padding: 0px;
+    background-image: url("aaya.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+
 
 .nav ul {
     margin: 0;
@@ -11,19 +22,48 @@ html ,body {
 .nav li {
     display: inline
 }
-.main nav {
-    text-align: center ;
-    font-size: 1.1em ;
-    font-weight: lighter;
-    border-bottom: 1 px solid  blue) ;
+
+.nav a {
+    display: inline-block;
+    padding: 0;
+    color: white;
+    text-decoration-color: none;
 
 }
 
-.main-nav li {
-    padding: 05%;
-} 
+.nav a:hover {
+    background-color: white ;
+    background-blend-mode: hard-light;
 
-.main-header {
-    background-image: url("creek-21749_960_720.jpg");
-    background-size: cover;
 }
+
+.nav a {
+    padding: 0;
+    color: white
+ 
+    
+}
+
+.img {
+    margin: 15%;
+    width: 50%;
+    border-radius: 15%;
+    margin-bottom: 20% ;
+}
+
+.title {
+    color: white;
+}
+
+.section img {
+    height:50px
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: none;
+    align-items: center;
+}
+
