@@ -1,0 +1,29 @@
+htm,body {
+    margin-left: 0;
+    padding-left: 0;
+}
+.main-nav {
+    display: inline-block;
+}
+
+.na a {
+    display:  inline-block;
+    padding: 0;
+    color: white;
+    text-decoration-color: none;
+}
+nav li {
+    display: inline;
+}
+
+.na a {
+    padding: 0;
+    color: white;
+}
+.icon {
+    display: flex;flex-direction: row;
+    padding: 100px;
+    border: none;
+    align-items: center;
+
+}
